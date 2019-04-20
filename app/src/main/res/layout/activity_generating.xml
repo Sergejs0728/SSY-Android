@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".GeneratingActivity">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="60dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:fontFamily="@font/mulibold"
+            android:gravity="center"
+            android:lineSpacingMultiplier="1.25"
+            android:text="Front View"
+            android:textSize="16sp" />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_gravity="bottom"
+            android:background="@color/default_text_color"
+            >
+
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:padding="30dp"
+        android:weightSum="1"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:gravity="center"
+            android:layout_weight="0.5"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/mulibold"
+                android:gravity="center"
+                android:text="Generating
+measurements…"
+                android:textSize="32sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_weight="0.5"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/mulibold"
+                android:gravity="right"
+                android:lineSpacingMultiplier="1.25"
+                android:text="50%"
+                android:textColor="@color/default_app_color"
+                android:textSize="18sp" />
+
+            <com.akexorcist.roundcornerprogressbar.RoundCornerProgressBar
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:layout_marginTop="10dp"
+                app:rcProgress="20"
+                android:gravity="left"
+                app:rcSecondaryProgress="30"
+                app:rcMax="100"
+                app:rcRadius="2dp"
+                app:rcBackgroundPadding="0dp"
+                app:rcReverse="false"
+                app:rcProgressColor="@color/default_app_color"
+                app:rcSecondaryProgressColor="@color/default_app_color"
+                app:rcBackgroundColor="#E2E6E9" />
+
+            <TextView
+                android:layout_marginTop="15dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/mulibold"
+                android:text="Sit tight! Beautiful things are worth the wait…."
+                android:textSize="12dp" />
+        </LinearLayout>
+        <Button
+            android:id="@+id/btn_cancel"
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:text="Cancel"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/button_border"
+            android:fontFamily="@font/muli"
+            android:textColor="@color/default_app_color"
+            android:textAllCaps="false"
+            android:textSize="16sp"
+            />
+    </LinearLayout>
+
+</LinearLayout>

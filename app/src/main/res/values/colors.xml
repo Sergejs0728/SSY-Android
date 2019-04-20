@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#D81B60</color>
+
+    <color name="button_pressed">#24A6AD</color>
+    <color name="button_focused">#24A6AD</color>
+    <color name="button_default">@android:color/transparent</color>
+
+    <color name="default_app_color">#24A6AD</color>
+    <color name="default_text_color">#424B5A</color>
+    <color name="default_pink_color">#FFC9D9</color>
+    <color name="default_blue_color">#7AD2D6</color>
+</resources>

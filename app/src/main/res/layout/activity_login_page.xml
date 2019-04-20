@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".LoginPageActivity">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="60dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="Login"
+            android:gravity="center"
+            android:textSize="16sp"
+            android:lineSpacingMultiplier="1.25"
+            android:fontFamily="@font/mulibold"
+            />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_gravity="bottom"
+            android:background="@color/default_text_color"
+            >
+
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:layout_marginTop="30dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Please enter the required details to start using the app"
+            android:textColor="@color/default_text_color"
+            android:gravity="center"
+            android:textSize="12sp"
+            android:lineSpacingMultiplier="1.25"
+            android:fontFamily="@font/muli"
+            />
+
+        <TextView
+            android:layout_marginTop="30dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Email"
+            android:textColor="@color/default_text_color"
+            android:fontFamily="@font/muli"
+            android:textSize="14sp"
+            />
+
+        <EditText
+            android:layout_marginTop="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:background="@drawable/button_border"
+            android:fontFamily="@font/muli"
+            android:textSize="14sp"
+            android:paddingLeft="15dp"
+            android:paddingRight="15dp"
+
+            />
+        <TextView
+            android:layout_marginTop="30dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Password"
+            android:textColor="@color/default_text_color"
+            android:fontFamily="@font/muli"
+            android:textSize="14sp"
+
+            />
+
+        <EditText
+            android:layout_marginTop="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:background="@drawable/button_border"
+            android:fontFamily="@font/muli"
+            android:textSize="14sp"
+            android:inputType="textPassword"
+            android:paddingLeft="15dp"
+            android:paddingRight="15dp"
+            />
+
+        <Button
+            android:layout_marginTop="40dp"
+            android:id="@+id/btn_login"
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:text="Login"
+            android:background="@drawable/button_border"
+            android:fontFamily="@font/muli"
+            android:textColor="@color/default_app_color"
+            android:textAllCaps="false"
+            android:textSize="16sp"
+            />
+
+        <LinearLayout
+            android:layout_marginTop="30dp"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/muli"
+                android:textColor="@color/default_text_color"
+                android:text="Don’t have an account?"
+                android:textSize="14sp"
+                />
+
+            <Button
+                android:id="@+id/btn_signup"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/muli"
+                android:textColor="@color/default_app_color"
+                android:text=" Sign Up"
+                android:textSize="14sp"
+                android:background="@color/button_default"
+                />
+        </LinearLayout>
+    </LinearLayout>
+
+
+</LinearLayout>

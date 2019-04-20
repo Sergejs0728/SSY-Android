@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".SaveActivity">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="60dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:fontFamily="@font/mulibold"
+            android:gravity="center"
+            android:lineSpacingMultiplier="1.25"
+            android:text="Front View"
+            android:textSize="16sp" />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_gravity="bottom"
+            android:background="@color/default_text_color"
+            >
+
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:padding="30dp"
+        android:weightSum="1"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:gravity="center"
+            android:layout_weight="0.5"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/mulibold"
+                android:gravity="center"
+                android:text="Hello, Gemma
+your size is"
+                android:textSize="32sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_weight="0.5"
+            android:gravity="center_horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="80dp"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:fontFamily="@font/mulibold"
+                    android:gravity="center"
+                    android:lineSpacingMultiplier="1.25"
+                    android:text="Top"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:fontFamily="@font/mulibold"
+                    android:gravity="center"
+                    android:lineSpacingMultiplier="1.25"
+                    android:text="S"
+                    android:textSize="36sp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_marginLeft="30dp"
+                android:orientation="vertical"
+                android:layout_width="80dp"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:fontFamily="@font/mulibold"
+                    android:gravity="center"
+                    android:lineSpacingMultiplier="1.25"
+                    android:text="BOTTOM"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:fontFamily="@font/mulibold"
+                    android:gravity="center"
+                    android:lineSpacingMultiplier="1.25"
+                    android:text="S"
+                    android:textSize="36sp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_marginLeft="30dp"
+                android:orientation="vertical"
+                android:layout_width="80dp"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:fontFamily="@font/mulibold"
+                    android:gravity="center"
+                    android:lineSpacingMultiplier="1.25"
+                    android:text="DRESS"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:fontFamily="@font/mulibold"
+                    android:gravity="center"
+                    android:lineSpacingMultiplier="1.25"
+                    android:text="S"
+                    android:textSize="36sp" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+        <Button
+            android:id="@+id/btn_Save"
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:text="Save"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/button_border"
+            android:fontFamily="@font/muli"
+            android:textColor="@color/default_app_color"
+            android:textAllCaps="false"
+            android:textSize="16sp"
+            />
+
+        <Button
+            android:id="@+id/btn_retake"
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:text="Retake"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/button_border"
+            android:fontFamily="@font/muli"
+            android:textColor="@color/default_app_color"
+            android:textAllCaps="false"
+            android:textSize="16sp"
+            />
+    </LinearLayout>
+
+</LinearLayout>

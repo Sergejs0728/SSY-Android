@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="1"
+    android:orientation="vertical"
+    tools:context=".LoginActivity">
+
+
+    <LinearLayout
+        android:layout_weight="0.25"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <ImageView
+                android:layout_gravity="center"
+                android:layout_width="140dp"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ssy_logo"
+                android:adjustViewBounds="true"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="SewSew Size Me App"
+                android:layout_marginTop="40dp"
+                android:fontFamily="@font/muli"
+                android:textSize="23dp"
+                android:textColor="#7AD2D6"
+                />
+        </LinearLayout>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <Button
+            android:id="@+id/btn_login"
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:text="Login"
+            android:background="@drawable/button_border"
+            android:fontFamily="@font/muli"
+            android:textColor="@color/default_app_color"
+            android:textAllCaps="false"
+            android:textSize="16sp"
+            />
+
+        <Button
+            android:id="@+id/btn_signup"
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:text="Sign Up"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/button_border"
+            android:fontFamily="@font/muli"
+            android:textColor="@color/default_app_color"
+            android:textAllCaps="false"
+            android:textSize="16sp"
+            />
+
+
+    </LinearLayout>
+
+
+</LinearLayout>
